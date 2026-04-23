@@ -16,5 +16,6 @@ COPY app/ .
 # expose port
 EXPOSE 3000
 
+
 # สั่งรัน server (สำคัญมาก)
 CMD ["node", "src/index.js"]
